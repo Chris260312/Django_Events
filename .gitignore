@@ -1,0 +1,22 @@
+# Django
+*.log
+*.sqlite3
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Миграции (если не хотите их включать, раскомментируйте строку ниже)
+# */migrations/*.py
+# !*/migrations/__init__.py
